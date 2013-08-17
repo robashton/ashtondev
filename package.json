@@ -1,0 +1,20 @@
+{
+  "name": "ashtondev",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robashton/ashtondev.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "3.2.5",
+    "jade": "*",
+    "stylus": "*"
+  }
+}

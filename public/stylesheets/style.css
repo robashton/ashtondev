@@ -1,0 +1,42 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.container {
+  padding: 0;
+  width: 1000px;
+}
+#speaker-floater {
+  position: absolute;
+  top: 90px;
+  width: 1000px;
+  height: 500px;
+  background-image: url("/images/splash.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  border: solid #000 2px;
+  z-index: -1;
+}
+#speaker-overlay-text {
+  position: absolute;
+  color: #222;
+  display: table;
+  width: 985px;
+  height: 90px;
+  top: 450px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+#speaker-overlay-back {
+  position: absolute;
+  width: 1000px;
+  height: 90px;
+  top: 450px;
+  margin: 0 auto;
+  background-color: #ddd;
+  opacity: 0.8;
+  border-left: solid 2px #000;
+  border-right: solid 2px #000;
+}
