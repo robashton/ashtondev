@@ -64,6 +64,50 @@ a {
   width: 1000px;
   margin-top: 30px;
 }
+#testimonials .dec {
+  position: absolute;
+}
+#testimonials .dec-one {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #228;
+  opacity: 0.1;
+  z-index: -1;
+}
+#testimonials .dec-two {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  width: 220px;
+  height: 200px;
+  background-color: #282;
+  opacity: 0.1;
+  z-index: -1;
+}
+#testimonials .dec-three {
+  position: absolute;
+  top: 50px;
+  left: 400px;
+  width: 220px;
+  height: 200px;
+  background-color: #882;
+  opacity: 0.1;
+  z-index: -1;
+}
+#testimonials .dec-four {
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  width: 220px;
+  height: 200px;
+  background-color: #882;
+  opacity: 0.1;
+  z-index: -1;
+}
+#testimonials h2 {
+  margin-bottom: 20px;
+}
 #testimonials .item {
   float: none;
   clear: both;
