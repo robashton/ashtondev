@@ -8,6 +8,10 @@ a {
   padding: 0;
   width: 1000px;
 }
+#speaker-container {
+  display: block;
+  height: 600px;
+}
 #speaker-floater {
   position: absolute;
   top: 90px;
@@ -39,4 +43,56 @@ a {
   opacity: 0.8;
   border-left: solid 2px #000;
   border-right: solid 2px #000;
+}
+#features {
+  width: 1000px;
+  margin-top: 10px;
+  height: 50px;
+}
+#features p {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-weight: bolder;
+  float: left;
+  background-color: #000080;
+  color: #fff;
+  padding: 20px 20px;
+}
+#testimonials {
+  float: none;
+  clear: both;
+  width: 1000px;
+  margin-top: 30px;
+}
+#testimonials .item {
+  float: none;
+  clear: both;
+  height: 70px;
+  margin-top: 10px;
+}
+#testimonials .client {
+  float: right;
+  width: 400px;
+}
+#testimonials .client p {
+  line-height: 0.5;
+  font-weight: bold;
+}
+#testimonials blockquote {
+  font-style: italic;
+  float: left;
+  width: 400px;
+}
+#howitworks {
+  float: none;
+  clear: both;
+  width: 1000px;
+  margin-top: 50px;
+}
+#howitworks h2 {
+  margin-top: 30px;
+}
+#howitworks p {
+  padding: 2px 0px;
+  line-height: 0.5;
 }
