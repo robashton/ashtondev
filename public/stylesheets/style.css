@@ -51,11 +51,9 @@ a {
 }
 #features p {
   text-transform: uppercase;
-  margin-right: 20px;
+  margin-right: 30px;
   font-weight: bolder;
   float: left;
-  background-color: #000080;
-  color: #fff;
   padding: 20px 20px;
 }
 #testimonials {
@@ -88,7 +86,7 @@ a {
 #testimonials .dec-three {
   position: absolute;
   top: 50px;
-  left: 400px;
+  left: 420px;
   width: 220px;
   height: 200px;
   background-color: #882;
@@ -98,10 +96,10 @@ a {
 #testimonials .dec-four {
   position: absolute;
   top: 150px;
-  left: 400px;
+  left: 640px;
   width: 220px;
   height: 200px;
-  background-color: #882;
+  background-color: #000;
   opacity: 0.1;
   z-index: -1;
 }
@@ -114,24 +112,45 @@ a {
   height: 70px;
   margin-top: 10px;
 }
-#testimonials .client {
+#testimonials .more {
   float: right;
-  width: 400px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #44f;
+}
+#testimonials .client {
+  float: left;
+  width: 250px;
 }
 #testimonials .client p {
   line-height: 0.5;
-  font-weight: bold;
 }
 #testimonials blockquote {
   font-style: italic;
-  float: left;
-  width: 400px;
+  float: right;
+  margin-right: 40px;
+  border: none;
+  width: 500px;
 }
-#howitworks {
+#who {
+  margin-top: 40px;
+}
+#more {
+  background-color: #fff;
+  width: 600px;
+  height: 300px;
   float: none;
   clear: both;
-  width: 1000px;
-  margin-top: 50px;
+}
+#more h2 {
+  margin-top: 0;
+}
+#howitworks {
+  background-color: #fff;
+  float: none;
+  clear: both;
+  width: 600px;
+  height: 200px;
 }
 #howitworks h2 {
   margin-top: 30px;
@@ -139,4 +158,18 @@ a {
 #howitworks p {
   padding: 2px 0px;
   line-height: 0.5;
+}
+#howitworks .code {
+  z-index: -1;
+  position: absolute;
+  left: 820px;
+  background-image: url("/images/code.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 500px;
+  height: 400px;
+  opacity: 0.3;
+}
+.rollover .content {
+  display: none;
 }
