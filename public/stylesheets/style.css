@@ -1,5 +1,5 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Roboto;
 }
 a {
   color: #00b7ff;
@@ -51,7 +51,7 @@ a {
 }
 #features p {
   text-transform: uppercase;
-  margin-right: 30px;
+  margin-left: 34px;
   font-weight: bolder;
   float: left;
   padding: 20px 20px;
@@ -121,9 +121,12 @@ a {
 #testimonials .client {
   float: left;
   width: 250px;
+  border-left: 5px solid #88d;
+  padding-left: 15px;
+  padding-top: 5px;
 }
 #testimonials .client p {
-  line-height: 0.5;
+  line-height: 0.9;
 }
 #testimonials blockquote {
   font-style: italic;
@@ -142,9 +145,6 @@ a {
   float: none;
   clear: both;
 }
-#more h2 {
-  margin-top: 0;
-}
 #howitworks {
   background-color: #fff;
   float: none;
@@ -157,7 +157,7 @@ a {
 }
 #howitworks p {
   padding: 2px 0px;
-  line-height: 0.5;
+  line-height: 0.9;
 }
 #howitworks .code {
   z-index: -1;
