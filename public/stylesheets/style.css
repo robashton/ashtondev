@@ -1,5 +1,8 @@
-body {
+body,
+html {
   font: 14px Roboto;
+  margin: 0;
+  height: 100%;
 }
 a {
   color: #00b7ff;
@@ -7,6 +10,10 @@ a {
 .container {
   padding: 0;
   width: 1000px;
+}
+h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 #speaker-container {
   display: block;
@@ -51,7 +58,7 @@ a {
 }
 #features p {
   text-transform: uppercase;
-  margin-left: 34px;
+  margin-left: 18px;
   font-weight: bolder;
   float: left;
   padding: 20px 20px;
@@ -59,7 +66,8 @@ a {
 #testimonials {
   float: none;
   clear: both;
-  width: 1000px;
+  width: 900px;
+  margin-left: 50px;
   margin-top: 30px;
 }
 #testimonials .dec {
@@ -103,9 +111,6 @@ a {
   opacity: 0.1;
   z-index: -1;
 }
-#testimonials h2 {
-  margin-bottom: 20px;
-}
 #testimonials .item {
   float: none;
   clear: both;
@@ -121,7 +126,8 @@ a {
 #testimonials .client {
   float: left;
   width: 250px;
-  border-left: 5px solid #88d;
+  border-left: 5px solid #00b7ff;
+  border-right: 2px solid #00b7ff;
   padding-left: 15px;
   padding-top: 5px;
 }
@@ -133,15 +139,21 @@ a {
   float: right;
   margin-right: 40px;
   border: none;
-  width: 500px;
+  border-right: 1px solid #00b7ff;
+  width: 480px;
+  padding-right: 20px;
+  height: 50px;
 }
 #who {
   margin-top: 40px;
+  width: 900px;
+  margin-left: 50px;
 }
 #more {
   background-color: #fff;
-  width: 600px;
-  height: 300px;
+  width: 550px;
+  margin-left: 50px;
+  height: 200px;
   float: none;
   clear: both;
 }
@@ -149,11 +161,9 @@ a {
   background-color: #fff;
   float: none;
   clear: both;
-  width: 600px;
-  height: 200px;
-}
-#howitworks h2 {
-  margin-top: 30px;
+  width: 550px;
+  margin-left: 50px;
+  height: 400px;
 }
 #howitworks p {
   padding: 2px 0px;
@@ -172,4 +182,19 @@ a {
 }
 .rollover .content {
   display: none;
+}
+#popup-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: visible;
+}
+#popup-content {
+  position: relative;
+  background-color: #fff;
+  border: solid 1px #449;
+  width: 600px;
+  height: auto;
+  padding: 5px 25px;
+  box-shadow: 0px 0px 15px #888;
 }
